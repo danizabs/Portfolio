@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Art</title>
+  <meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+  </header>
+<div id="everything">
+  <h1>
+    DANIELLE ZABIELSKI
+  </h1>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="experience.html">EXPERIENCE/EDU</a>
+    <a href="art.html">ARTWORK</a>
+    <a href="http://thinkfeelheal.com/">BACK</a>
+  </nav>
+
+  <img name="slide" src="images/philly1.jpg" />
+<script language="JavaScript">
+  var i = 0;
+    var path = new Array();
+
+    // LIST OF IMAGES
+    path[0] = "revolver.jpg";
+    path[1] = "kurt.jpg";
+    path[2] = "bowie.jpg";
+    path[3] = "woman.jpg";
+    path[4] = "pepper.jpg";
+    path[5] = "carter.jpg";
+    path[6] = "shining.jpg";
+    path[7] = "poe.jpg";
+
+
+
+    function swapImage()
+    {
+      document.slide.src = path[i];
+      if(i < path.length - 1) i++; else i = 0;
+      setTimeout("swapImage()",3000);
+    }
+    window.onload=swapImage;
+</script>
+</body>
