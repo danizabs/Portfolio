@@ -60,3 +60,20 @@ strong {
   width: 960px;
   margin: 0px auto;
 }
+
+#ugh a:link{
+  color: black;
+  font-family: sans-serif;
+ }
+#ugh a:visited{
+  color: black;
+  font-family: sans-serif;
+}
+#ugh a:hover{
+  color: black;
+  font-family: sans-serif;
+}
+#ugh a:active{
+  color: black;
+  font-family: sans-serif;
+}
