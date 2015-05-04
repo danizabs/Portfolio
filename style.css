@@ -12,7 +12,7 @@ header {
 h1 {
   font-size: 65px;
   font-weight: normal;
-  margin: 13px 0px 17px 0px;
+  margin: 13px 0px 11px 0px;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
 
 nav {
   background-color: black;
-  padding: 6.5px 18px 8px 15px;
+  padding: 4px 18px 4px 15px;
   word-spacing: 30px;
 }
 
