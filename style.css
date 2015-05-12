@@ -113,3 +113,11 @@ b{
     margin: 0px auto;
     float: left;
 }
+
+#tagline {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  float: right;
+  padding: 0px 15px;
+}
