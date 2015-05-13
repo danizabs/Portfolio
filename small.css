@@ -118,3 +118,15 @@ img {
   height: auto;
   width: 715px;
 }
+
+#tagline {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  float: right;
+  padding: 0px 15px;
+}
+
+#mediums {
+  font-family: sans-serif;
+}
